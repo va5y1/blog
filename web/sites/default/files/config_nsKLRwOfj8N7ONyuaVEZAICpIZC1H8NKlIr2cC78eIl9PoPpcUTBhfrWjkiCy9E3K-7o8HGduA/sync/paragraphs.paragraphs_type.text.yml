@@ -1,0 +1,11 @@
+uuid: 7fb0e0c7-439d-4d83-965b-4b17f0570102
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:1a813290-3188-4021-935b-fbc720d9217f'
+id: text
+label: Text
+icon_uuid: 1a813290-3188-4021-935b-fbc720d9217f
+description: ''
+behavior_plugins: {  }

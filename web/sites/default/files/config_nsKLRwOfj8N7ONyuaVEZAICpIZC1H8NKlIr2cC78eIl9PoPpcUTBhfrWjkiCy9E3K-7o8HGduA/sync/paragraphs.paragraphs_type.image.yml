@@ -1,0 +1,11 @@
+uuid: 1df68a58-36e1-4dce-83ac-231f2db2685b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:c17e9b98-da77-4a20-b546-f3915d84eff8'
+id: image
+label: Image
+icon_uuid: c17e9b98-da77-4a20-b546-f3915d84eff8
+description: ''
+behavior_plugins: {  }
