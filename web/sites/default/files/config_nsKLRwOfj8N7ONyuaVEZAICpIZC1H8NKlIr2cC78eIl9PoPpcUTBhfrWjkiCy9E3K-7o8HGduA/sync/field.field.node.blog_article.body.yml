@@ -1,25 +1,23 @@
-uuid: a1737a16-5a46-44e7-b55f-ffd2a9043aa9
+uuid: 3bc02a4d-6343-4cd2-aa97-4355504ed267
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.page
+    - node.type.blog_article
   module:
     - text
-_core:
-  default_config_hash: KgVkxLl_K3E3lvN6CEoWQIDT0V8J4Mv-fVYrAIc7-FE
-id: node.page.body
+id: node.blog_article.body
 field_name: body
 entity_type: node
-bundle: page
-label: Body
+bundle: blog_article
+label: Anons
 description: ''
-required: false
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  display_summary: true
+  display_summary: false
   required_summary: false
 field_type: text_with_summary

@@ -1,0 +1,11 @@
+uuid: 4349d059-7300-4de0-8084-e4d513a083e6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:08739513-ae3d-41cb-b516-04096d7d2246'
+id: image_with_text
+label: 'Image with text'
+icon_uuid: 08739513-ae3d-41cb-b516-04096d7d2246
+description: ''
+behavior_plugins: {  }

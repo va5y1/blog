@@ -1,0 +1,58 @@
+uuid: 0fe0bd4f-17c3-424a-a2f9-2ac6c4d424db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blog_article.body
+    - field.field.node.blog_article.field_attachments
+    - field.field.node.blog_article.field_paragraph
+    - field.field.node.blog_article.field_tags
+    - node.type.blog_article
+  module:
+    - entity_reference_revisions
+    - file
+    - text
+    - user
+id: node.blog_article.default
+targetEntityType: node
+bundle: blog_article
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_attachments:
+    weight: 103
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_paragraph:
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_tags:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

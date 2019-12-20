@@ -1,4 +1,4 @@
-uuid: b6cc1968-3bb8-4952-abfd-d6029df208f5
+uuid: 07cd3377-ad91-4fba-a950-daf857dc9cb5
 langcode: en
 status: true
 dependencies:
@@ -22,8 +22,8 @@ third_party_settings:
     unpublish_enable: false
     unpublish_required: false
     unpublish_revision: false
-name: Page
-type: page
+name: 'Blog Article'
+type: blog_article
 description: ''
 help: ''
 new_revision: true

@@ -1,0 +1,11 @@
+uuid: 43f684ee-d87c-4d85-b113-17a22c28584e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:24e74dc0-e44c-41f4-a287-0b1d66d4cf48'
+id: code
+label: Code
+icon_uuid: 24e74dc0-e44c-41f4-a287-0b1d66d4cf48
+description: ''
+behavior_plugins: {  }

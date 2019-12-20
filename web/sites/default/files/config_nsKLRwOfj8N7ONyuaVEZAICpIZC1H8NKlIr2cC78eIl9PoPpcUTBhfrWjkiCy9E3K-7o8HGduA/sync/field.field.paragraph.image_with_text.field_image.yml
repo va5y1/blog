@@ -1,21 +1,19 @@
-uuid: 7b55923b-80df-4560-b5ec-b2d27183023e
+uuid: 5e954624-803b-4799-91ec-2989a35c1d71
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
-    - node.type.article
+    - field.storage.paragraph.field_image
+    - paragraphs.paragraphs_type.image_with_text
   module:
     - image
-_core:
-  default_config_hash: tgJzhA7Swh4M_gWU5FwFe5lPxPj5rebpMbvhpdNrERs
-id: node.article.field_image
+id: paragraph.image_with_text.field_image
 field_name: field_image
-entity_type: node
-bundle: article
+entity_type: paragraph
+bundle: image_with_text
 label: Image
 description: ''
-required: false
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''
@@ -26,11 +24,11 @@ settings:
   max_resolution: ''
   min_resolution: ''
   alt_field: true
+  alt_field_required: false
   title_field: false
-  alt_field_required: true
   title_field_required: false
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null

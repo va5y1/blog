@@ -1,0 +1,47 @@
+uuid: 41cbf15e-dfa3-4e36-8c7a-0107fa91bf7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph
+    - node.type.blog_article
+  module:
+    - entity_reference_revisions
+id: node.blog_article.field_paragraph
+field_name: field_paragraph
+entity_type: node
+bundle: blog_article
+label: Content
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      text:
+        weight: -15
+        enabled: false
+      image:
+        weight: -14
+        enabled: false
+      image_with_text:
+        weight: -13
+        enabled: false
+      gallery:
+        weight: -12
+        enabled: false
+      code:
+        weight: -11
+        enabled: false
+      video_youtube:
+        weight: -10
+        enabled: false
+      youtube_gallery:
+        weight: -9
+        enabled: false
+field_type: entity_reference_revisions

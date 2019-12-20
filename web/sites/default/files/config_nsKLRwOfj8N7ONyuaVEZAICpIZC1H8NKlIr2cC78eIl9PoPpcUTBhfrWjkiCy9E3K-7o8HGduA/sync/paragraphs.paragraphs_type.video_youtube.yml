@@ -1,0 +1,11 @@
+uuid: 121ec274-cd49-4fb5-9d32-1566df65fd8c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:07499bc7-47d0-41c7-8e24-b766f400e191'
+id: video_youtube
+label: 'Video Youtube'
+icon_uuid: 07499bc7-47d0-41c7-8e24-b766f400e191
+description: ''
+behavior_plugins: {  }

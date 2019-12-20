@@ -1,13 +1,13 @@
-uuid: c94083aa-6801-4196-a7aa-3f3d0d5e19bf
+uuid: 6eb1bf5b-9975-4bfc-ac18-f6fd122d269c
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.page
-id: node.page.promote
+    - node.type.blog_article
+id: node.blog_article.promote
 field_name: promote
 entity_type: node
-bundle: page
+bundle: blog_article
 label: 'Promoted to front page'
 description: ''
 required: false

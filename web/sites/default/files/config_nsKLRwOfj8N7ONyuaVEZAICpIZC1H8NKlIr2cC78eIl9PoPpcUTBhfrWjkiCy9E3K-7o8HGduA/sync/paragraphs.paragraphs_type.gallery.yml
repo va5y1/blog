@@ -1,0 +1,11 @@
+uuid: ae4da4a8-0a12-429d-88ec-0d72185407c2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:1eb58ce2-ed53-4b8d-bdbc-167b16f9ab59'
+id: gallery
+label: Gallery
+icon_uuid: 1eb58ce2-ed53-4b8d-bdbc-167b16f9ab59
+description: ''
+behavior_plugins: {  }

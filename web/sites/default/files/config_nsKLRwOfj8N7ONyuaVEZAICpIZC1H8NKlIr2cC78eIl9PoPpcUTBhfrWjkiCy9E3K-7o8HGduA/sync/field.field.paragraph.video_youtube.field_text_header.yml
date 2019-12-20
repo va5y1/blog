@@ -1,0 +1,19 @@
+uuid: effa214b-3e86-4bbc-be52-0d9c9542634a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_header
+    - paragraphs.paragraphs_type.video_youtube
+id: paragraph.video_youtube.field_text_header
+field_name: field_text_header
+entity_type: paragraph
+bundle: video_youtube
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
