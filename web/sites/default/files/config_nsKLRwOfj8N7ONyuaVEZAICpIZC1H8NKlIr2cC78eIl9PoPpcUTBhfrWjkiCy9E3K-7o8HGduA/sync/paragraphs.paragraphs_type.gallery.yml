@@ -4,8 +4,12 @@ status: true
 dependencies:
   content:
     - 'file:file:1eb58ce2-ed53-4b8d-bdbc-167b16f9ab59'
+  module:
+    - blog_paragraphs
 id: gallery
 label: Gallery
 icon_uuid: 1eb58ce2-ed53-4b8d-bdbc-167b16f9ab59
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraps_gallery:
+    enabled: true

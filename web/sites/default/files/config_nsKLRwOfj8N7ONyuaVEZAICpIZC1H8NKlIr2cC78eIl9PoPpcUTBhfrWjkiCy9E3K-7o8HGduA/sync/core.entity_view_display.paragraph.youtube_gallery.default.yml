@@ -3,16 +3,23 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.youtube_gallery.field_remote_videos
     - field.field.paragraph.youtube_gallery.field_text_header
-    - field.field.paragraph.youtube_gallery.field_youtubes
     - paragraphs.paragraphs_type.youtube_gallery
-  module:
-    - youtube
 id: paragraph.youtube_gallery.default
 targetEntityType: paragraph
 bundle: youtube_gallery
 mode: default
 content:
+  field_remote_videos:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
   field_text_header:
     weight: 0
     label: above
@@ -20,21 +27,5 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
-  field_youtubes:
-    weight: 1
-    label: above
-    settings:
-      youtube_size: 450x315
-      youtube_width: ''
-      youtube_height: ''
-      youtube_autoplay: false
-      youtube_mute: false
-      youtube_loop: false
-      youtube_controls: false
-      youtube_autohide: false
-      youtube_iv_load_policy: false
-    third_party_settings: {  }
-    type: youtube_video
     region: content
 hidden: {  }

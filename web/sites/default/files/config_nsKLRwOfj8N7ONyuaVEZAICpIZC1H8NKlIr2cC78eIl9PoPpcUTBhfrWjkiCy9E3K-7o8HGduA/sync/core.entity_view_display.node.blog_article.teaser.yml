@@ -6,7 +6,9 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.blog_article.body
     - field.field.node.blog_article.field_attachments
+    - field.field.node.blog_article.field_comments
     - field.field.node.blog_article.field_paragraph
+    - field.field.node.blog_article.field_promo
     - field.field.node.blog_article.field_tags
     - node.type.blog_article
   module:
@@ -32,5 +34,7 @@ content:
     region: content
 hidden:
   field_attachments: true
+  field_comments: true
   field_paragraph: true
+  field_promo: true
   field_tags: true

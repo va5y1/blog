@@ -1,20 +1,25 @@
-uuid: 46f44a50-ca39-40f4-914a-ef8b5a0a2a9d
+uuid: 59136bde-1179-434d-a7fa-7379e61b6c34
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_images
-    - paragraphs.paragraphs_type.gallery
+    - field.storage.media.field_media_image
+    - media.type.image
+  enforced:
+    module:
+      - media
   module:
     - image
-id: paragraph.gallery.field_images
-field_name: field_images
-entity_type: paragraph
-bundle: gallery
-label: images
+_core:
+  default_config_hash: pzPA-2JwyxlJ3qMb4L9viAnhNhbEhl2couH8A3FO020
+id: media.image.field_media_image
+field_name: field_media_image
+entity_type: media
+bundle: image
+label: Image
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

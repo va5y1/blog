@@ -4,10 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.video_youtube.field_text_header
-    - field.field.paragraph.video_youtube.field_youtube_video
+    - field.field.paragraph.video_youtube.field_video_youtube
     - paragraphs.paragraphs_type.video_youtube
   module:
-    - youtube
+    - media_library
 id: paragraph.video_youtube.default
 targetEntityType: paragraph
 bundle: video_youtube
@@ -21,12 +21,12 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_youtube_video:
-    weight: 0
+  field_video_youtube:
+    type: media_library_widget
+    weight: 3
     settings:
-      placeholder_url: ''
+      media_types: {  }
     third_party_settings: {  }
-    type: youtube
     region: content
 hidden:
   created: true
