@@ -34,11 +34,10 @@ class GalleryBehavior extends ParagraphsBehaviorBase {
     $bem_block = 'paragraph-' . $paragraph->bundle() . ($view_mode = 'default' ? '' : '-' . $view_mode) . '--images-per-row' .
       $images_per_row;
     $build['#attributes']['class'][] = Html::getClass($bem_block);
-    ksm($bem_block);
   }
 
   /**
-   * @inheritDoc
+   * {@inheritDoc}
    */
   public function buildBehaviorForm(ParagraphInterface $paragraph, array &$form, FormStateInterface $form_state) {
     $form['item_per_row'] = [

@@ -4,8 +4,12 @@ status: true
 dependencies:
   content:
     - 'file:file:08739513-ae3d-41cb-b516-04096d7d2246'
+  module:
+    - blog_paragraphs
 id: image_with_text
 label: 'Image with text'
 icon_uuid: 08739513-ae3d-41cb-b516-04096d7d2246
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraps_image_and_text:
+    enabled: true
