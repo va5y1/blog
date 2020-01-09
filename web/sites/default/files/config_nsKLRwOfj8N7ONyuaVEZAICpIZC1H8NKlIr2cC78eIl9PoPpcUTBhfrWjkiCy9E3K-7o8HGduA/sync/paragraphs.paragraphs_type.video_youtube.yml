@@ -4,8 +4,14 @@ status: true
 dependencies:
   content:
     - 'file:file:07499bc7-47d0-41c7-8e24-b766f400e191'
+  module:
+    - blog_paragraphs
 id: video_youtube
 label: 'Remote Video'
 icon_uuid: 07499bc7-47d0-41c7-8e24-b766f400e191
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraps_paragraph_class:
+    enabled: true
+  blog_paragraps_paragraph_style:
+    enabled: true

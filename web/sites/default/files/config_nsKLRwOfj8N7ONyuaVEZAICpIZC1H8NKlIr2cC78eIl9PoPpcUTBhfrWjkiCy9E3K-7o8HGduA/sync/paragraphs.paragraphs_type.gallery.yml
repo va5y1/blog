@@ -13,3 +13,7 @@ description: ''
 behavior_plugins:
   blog_paragraps_gallery:
     enabled: true
+  blog_paragraps_paragraph_class:
+    enabled: true
+  blog_paragraps_paragraph_style:
+    enabled: true

@@ -4,8 +4,14 @@ status: true
 dependencies:
   content:
     - 'file:file:1a813290-3188-4021-935b-fbc720d9217f'
+  module:
+    - blog_paragraphs
 id: text
 label: Text
 icon_uuid: 1a813290-3188-4021-935b-fbc720d9217f
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraps_paragraph_class:
+    enabled: true
+  blog_paragraps_paragraph_style:
+    enabled: true

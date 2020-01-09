@@ -1,9 +1,15 @@
 uuid: 13fe27fb-c85c-4ef5-a4c6-3c41d284d642
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - blog_paragraphs
 id: youtube_gallery
 label: 'Youtube Gallery'
 icon_uuid: null
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraps_paragraph_class:
+    enabled: true
+  blog_paragraps_paragraph_style:
+    enabled: true

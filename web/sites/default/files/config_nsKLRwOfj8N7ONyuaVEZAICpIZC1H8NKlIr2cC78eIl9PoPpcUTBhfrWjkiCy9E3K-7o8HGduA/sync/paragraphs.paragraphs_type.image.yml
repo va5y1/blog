@@ -4,8 +4,14 @@ status: true
 dependencies:
   content:
     - 'file:file:c17e9b98-da77-4a20-b546-f3915d84eff8'
+  module:
+    - blog_paragraphs
 id: image
 label: Image
 icon_uuid: c17e9b98-da77-4a20-b546-f3915d84eff8
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  blog_paragraps_paragraph_class:
+    enabled: true
+  blog_paragraps_paragraph_style:
+    enabled: true
