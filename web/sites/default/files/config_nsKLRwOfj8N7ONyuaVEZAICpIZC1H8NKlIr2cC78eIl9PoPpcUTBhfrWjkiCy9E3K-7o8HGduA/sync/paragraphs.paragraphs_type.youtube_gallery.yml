@@ -13,3 +13,7 @@ behavior_plugins:
     enabled: true
   blog_paragraps_paragraph_style:
     enabled: true
+  blog_paragraps_paragraph_title:
+    enabled: true
+  blog_paragraps_remote_video_gallery:
+    enabled: true
