@@ -36,7 +36,6 @@ class ParagraphStyleBehavior extends ParagraphsBehaviorBase {
     foreach ($selected_styles as $style) {
       $build['#attributes']['class'][] = $bem_block . '--' . Html::getClass($style);
     }
-    dump($build);
   }
 
   /**
