@@ -1,0 +1,6 @@
+name: Blog Hero
+description: Custom Page Title.
+type: module
+core: 8.x
+package: custom
+
